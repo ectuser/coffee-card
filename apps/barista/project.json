@@ -1,0 +1,9 @@
+{
+  "name": "barista",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/barista",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project barista --web",
+  "targets": {}
+}
