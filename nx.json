@@ -14,7 +14,7 @@
     ],
     "sharedGlobals": []
   },
-  "nxCloudAccessToken": "NWRmNDNiMzYtNDE3My00ZGMzLWEwZmItMmJhNjEwMjJmMWJhfHJlYWQtd3JpdGU=",
+  "neverConnectToCloud": true,
   "plugins": [
     {
       "plugin": "@nx/next/plugin",

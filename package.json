@@ -2,7 +2,16 @@
   "name": "@coffee-card/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "landing:build": "nx build landing",
+    "client:build": "nx build client",
+    "barista:build": "nx build barista",
+    "landing:dev": "nx dev landing",
+    "client:dev": "nx dev client",
+    "barista:dev": "nx dev barista",
+    "lint": "concurrently \"nx lint landing\" \"nx lint barista\" \"nx lint client\" --kill-others",
+    "test": "concurrently \"nx test landing\" \"nx test barista\" \"nx test client\" --kill-others"
+  },
   "private": true,
   "dependencies": {
     "next": "14.2.3",
@@ -29,6 +38,7 @@
     "@typescript-eslint/parser": "^7.3.0",
     "autoprefixer": "10.4.13",
     "babel-jest": "^29.4.1",
+    "concurrently": "^8.2.2",
     "eslint": "~8.57.0",
     "eslint-config-next": "14.2.3",
     "eslint-config-prettier": "^9.0.0",
