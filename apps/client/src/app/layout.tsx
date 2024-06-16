@@ -1,3 +1,5 @@
+import { BottomNavigation } from '@coffee-card/bottom-navigation';
+
 import './global.css';
 
 export const metadata = {
@@ -14,7 +16,10 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <div className='max-w-lg mx-auto'>
-          {children}
+          <main className='main-content'>
+            {children}
+          </main>
+          <BottomNavigation />
         </div>
       </body>
     </html>
