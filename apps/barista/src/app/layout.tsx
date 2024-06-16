@@ -12,7 +12,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <div className='max-w-lg mx-auto'>
+          {children}
+        </div>
+      </body>
     </html>
   );
 }

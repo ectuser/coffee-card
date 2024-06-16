@@ -39,6 +39,7 @@
     "autoprefixer": "10.4.13",
     "babel-jest": "^29.4.1",
     "concurrently": "^8.2.2",
+    "daisyui": "^4.12.2",
     "eslint": "~8.57.0",
     "eslint-config-next": "14.2.3",
     "eslint-config-prettier": "^9.0.0",
