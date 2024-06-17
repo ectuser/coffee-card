@@ -14,14 +14,7 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {
-      "@coffee-card/bottom-navigation": [
-        "libs/shared/bottom-navigation/src/index.ts"
-      ],
-      "@coffee-card/bottom-navigation/server": [
-        "libs/shared/bottom-navigation/src/server.ts"
-      ]
-    }
+    "paths": {}
   },
   "exclude": ["node_modules", "tmp"]
 }

@@ -11,5 +11,3 @@ export function BottomNavigation() {
     </button>
   </div>;
 }
-
-export default BottomNavigation;
